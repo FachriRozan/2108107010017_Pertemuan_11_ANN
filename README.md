@@ -41,7 +41,9 @@ Dataset merupakan penjualan mobil bermerek BMW dengan spesifikasi mobil beserta 
 Dilakukan perbandingan model SVC dengan model ANN. Adapun perbandingannya adalah:
 - Model SVC:
 Akurasi menggunakan tinggi dan berat badan untuk memprediksi tingkat obesitas adalah 98.4%
+
 Akurasi menggunakan BMI dan berat badan untuk memprediksi tingkat obesitas adalah 97.6%
+
 Akurasi menggunakan PhysicalActivityLevel dan berat badan untuk memprediksi tingkat obesitas adalah 68.6%
 
 -Model ANN:
@@ -69,8 +71,10 @@ Dari perbandingan 2 model tersebut dapat dilihat SVM dan ANN menghasilkan akuras
 Dilakukan perbandingan RMSE pada model SVR dengan model ANN. Adapun perbandingannya adalah:
 - Model SVR: 
 RMSE model polynomial dengan degree 3 menggunakan fitur engine_power untuk memprediksi harga mobil sebesar: 0.7154030320522825
+
 RMSE model polynomial dengan degree 3 menggunakan fitur mileage untuk memprediksi harga mobil sebesar: 0.8439685619772759
 
 - Model ANN: 
 RMSE model ANN menggunakan fitur engine_power untuk memprediksi harga mobil sebesar: 7649.869641718357
+
 RMSE model ANN menggunakan fitur mileage untuk memprediksi harga mobil sebesar: 7680.162968872658
