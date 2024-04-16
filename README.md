@@ -49,8 +49,10 @@ Akurasi menggunakan tinggi badan, berat badan, BMI, dan PhysicalActivityLevel un
 
 Epoch 98/100
 24/24 [==============================] - 0s 2ms/step - loss: 0.1886 - accuracy: 0.9787
+
 Epoch 99/100
 24/24 [==============================] - 0s 2ms/step - loss: 0.1864 - accuracy: 0.9747
+
 Epoch 100/100
 24/24 [==============================] - 0s 2ms/step - loss: 0.1836 - accuracy: 0.9813
 
